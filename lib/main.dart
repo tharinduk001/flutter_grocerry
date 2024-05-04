@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_grocerry/pages/category_page/category_page.dart';
 import 'package:flutter_grocerry/pages/home_page/home_page.dart';
 
 void main() {
@@ -13,6 +14,6 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
         debugShowCheckedModeBanner: false,
         title: "Flutter Grocerry",
-        home: HomePage());
+        home: CategoryPage());
   }
 }

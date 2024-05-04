@@ -35,7 +35,7 @@ class SeacrhBox extends StatelessWidget {
                       fontWeight: FontWeight.normal,
                       color: const Color(0xff000000).withOpacity(0.5),
                       fontSize: 15),
-                  contentPadding: EdgeInsets.symmetric(vertical: 12),
+                  contentPadding: const EdgeInsets.symmetric(vertical: 12),
                 ),
               ),
             ),
