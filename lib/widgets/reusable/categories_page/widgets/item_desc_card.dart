@@ -12,16 +12,16 @@ class ItemDescCard extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
         Container(
-          margin: EdgeInsets.only(bottom: 10),
+          margin: const EdgeInsets.only(bottom: 10),
           width: 50,
           height: 50,
           decoration: BoxDecoration(
-              color: Color(0xffFFE500),
+              color: const Color(0xffFFE500),
               borderRadius: BorderRadius.circular(50)),
           child: Center(
             child: Text(
               number.toString(),
-              style: TextStyle(fontSize: 16),
+              style: const TextStyle(fontSize: 16),
             ),
           ),
         ),
@@ -29,7 +29,7 @@ class ItemDescCard extends StatelessWidget {
             width: 260,
             child: Text(title,
                 style: TextStyle(
-                    color: Color(0xff3B3636).withOpacity(0.75), fontSize: 15)))
+                    color: const Color(0xff3B3636).withOpacity(0.75), fontSize: 15)))
       ],
     );
   }

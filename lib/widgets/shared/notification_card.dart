@@ -28,7 +28,7 @@ class NotificationCard extends StatelessWidget {
                   color: Color(0xffFF9900)),
             ),
             Text(
-              "Sped payments with master and visa",
+              "Speed payments with master and visa",
               style: TextStyle(
                   fontSize: 12,
                   fontWeight: FontWeight.bold,

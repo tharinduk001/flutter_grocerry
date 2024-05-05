@@ -114,7 +114,7 @@ class CategoryPage extends StatelessWidget {
               const SizedBox(
                 height: 10,
               ),
-              SelectedItem()
+              const SelectedItem()
             ],
           ),
         ),
